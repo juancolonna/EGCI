@@ -26,6 +26,16 @@ def JSD(p):
     jensen0 = -2*((((n+1)/n)*np.log(n+1)-2*np.log(2*n) + np.log(n))**(-1))
     return jensen0*(entropy(p, m) + entropy(q, m)) / 2
 
+def Dissimilarity_JSD(h1,h2):
+    n = len(h1)
+    h1 = np.asarray(h1)
+    h1 = h1/h1.sum() # normalize
+    h2 = np.asarray(h2)
+    h2 = h2/h2.sum() # normalize
+    h1_h2 = (h1 + h2) / 2
+    jensen0 = -2*((((n+1)/n)*np.log(n+1)-2*np.log(2*n) + np.log(n))**(-1))
+    return jensen0*(entropy(h1, h1_h2) + entropy(h2, h1_h2)) / 2
+
 def diff_freq_entropy(Sf):
     """Sf must be the spectrogram"""
     n = Sf.shape[1]-1
