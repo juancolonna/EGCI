@@ -13,14 +13,9 @@ The downloaded file should be __pkl_datasets.zip__, simply unzip the files into 
 ### Library dependencies
 
 python           : 3.6.9 \
-pandas           : 0.25.3
-
-numpy            : 1.17.3
-
-matplotlib       : 3.1.2
-
-scipy            : 1.3.1
-
-statsmodels      : 0.10.2
-
-soundfile        : 0.10.3
+pandas           : 0.25.3 \
+numpy            : 1.17.3 \
+matplotlib       : 3.1.2 \
+scipy            : 1.3.1 \
+statsmodels      : 0.10.2 \
+soundfile        : 0.10.3 \
