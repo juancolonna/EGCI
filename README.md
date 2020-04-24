@@ -18,4 +18,4 @@ numpy            : 1.17.3 \
 matplotlib       : 3.1.2 \
 scipy            : 1.3.1 \
 statsmodels      : 0.10.2 \
-soundfile        : 0.10.3 \
+soundfile        : 0.10.3 
