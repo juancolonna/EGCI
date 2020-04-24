@@ -22,3 +22,6 @@ matplotlib       : 3.1.2
 
 scipy            : 1.3.1
 
+statsmodels      : 0.10.2
+
+soundfile        : 0.10.3
