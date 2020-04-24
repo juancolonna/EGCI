@@ -12,7 +12,7 @@ The downloaded file should be __pkl_datasets.zip__, simply unzip the files into 
 
 ### Library dependencies
 
-python           : 3.6.9
+python           : 3.6.9 \
 pandas           : 0.25.3
 
 numpy            : 1.17.3
