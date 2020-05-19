@@ -1,4 +1,4 @@
-# ECI (Ecoacoustic Complexity Index)
+# EGCI (Ecoacoustic Global Complexity Index)
 
 Amazon rainforest soundscape characterized by Information Theory quantifiers. [PDF](https://www.biorxiv.org/content/10.1101/2020.02.09.940916v1.abstract)
 
