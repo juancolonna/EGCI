@@ -1,6 +1,8 @@
 # EGCI (Ecoacoustic Global Complexity Index)
 
-Amazon rainforest soundscape characterized by Information Theory quantifiers. [PDF](https://www.biorxiv.org/content/10.1101/2020.02.09.940916v1.abstract)
+Article title: Quantifying ecoacoustic activity in the Amazon rainforest through Information Theory quantifiers.
+
+Previous title: Amazon rainforest soundscape characterized by Information Theory quantifiers. [PDF](https://www.biorxiv.org/content/10.1101/2020.02.09.940916v1.abstract)
 
 The jupyter notebooks available here allows to reproduce the images and results included in the PDF article.
 
