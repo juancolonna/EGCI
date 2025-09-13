@@ -30,7 +30,7 @@ tqdm
 
 ### How to use it
 
-`
+```python
 import numpy as np
 import soundfile as sf
 import EGCI
@@ -55,4 +55,4 @@ plt.ylim([0, np.max(boundaries_C)+0.01])
 plt.title('Adenomera andre.wav')
 plt.legend(loc = 'best')
 plt.show()
-`
+```
