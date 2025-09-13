@@ -28,3 +28,31 @@ tqdm
 
 `pip install EGCI`
 
+### How to use it
+
+`
+import numpy as np
+import soundfile as sf
+import EGCI
+import matplotlib.pyplot as plt
+
+# download a record file from this url: "https://drive.google.com/file/d/1QL5GimLjGLKBIiMzoa7VXlCR4GCpWBwc/view?usp=drivesdk"
+# load this record
+x, fs = sf.read('Adenomera andre.wav') # record of an anuran call
+
+lag = 256 # time lag
+C, H, J = EGCI.index(x, lag=lag) # C is the EGCI
+
+boundaries_C, boundaries_H = EGCI.boundaries(lag) # these boundaries are only useful for plotting
+
+plt.figure()
+plt.plot(boundaries_H, boundaries_C, '--k')
+plt.scatter(H, C, marker='.', s=100, label='Adenomera andre')
+plt.xlabel('Entropy')
+plt.ylabel('EGCI (Complexity)')
+plt.xlim([0, 1])
+plt.ylim([0, np.max(boundaries_C)+0.01])
+plt.title('Adenomera andre.wav')
+plt.legend(loc = 'best')
+plt.show()
+`
