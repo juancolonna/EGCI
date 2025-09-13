@@ -23,3 +23,8 @@ statsmodels      : 0.10.2 \
 soundfile        : 0.10.3 \
 colorednoise     : 1.1.1 \
 tqdm
+
+### Instalation
+
+`pip install EGCI`
+
